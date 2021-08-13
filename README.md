@@ -21,7 +21,7 @@ Import your podcasts
 ```
 npm run pg
 ```
-The code above creates a `podgrab` directory if their isn't one, as well as a `podcasts` directory nested inside of it. It will then query your CAST XML url, create a `podgrab.sh` script, and save each mp3 file to your `podcasts` directory.
+The code above creates a `podgrab` directory if there isn't one, as well as a `podcasts` directory nested inside of it. It will then query your CAST XML url, create a `podgrab.sh` script, and save each mp3 file to your `podcasts` directory.
 
 ## Cleanup
 To remove the entire `podgrab` directory, run this code:
