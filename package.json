@@ -1,0 +1,22 @@
+{
+  "name": "podgrab",
+  "version": "1.0.0",
+  "description": "Download podcast audio files from your RSS XML feed!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pg": "node index.js && cd ./podgrab/podcasts && sh -e ../podgrab.sh",
+    "pg-init": "sh -e ./utils/init.sh",
+    "pg-toss": "rm ./podgrab/podgrab.sh",
+    "pg-toss-all": "rm -r ./podgrab"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^10.0.0",
+    "os": "^0.1.2",
+    "xml2js": "^0.4.23"
+  }
+}
